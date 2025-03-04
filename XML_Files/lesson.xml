@@ -1,0 +1,2096 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lesson lessonid="306CC813-62CD-409A-8E35-20F8DA7B93F2" title="Shutdown Procedure" identifier="T20425" documentid="A850FC57-6639-4521-9E0E-E42C83C21C6B">
+	<ppc name="properties">
+		<stringProp name="ExportedBy">s00003033</stringProp>
+		<stringProp name="ExportedDate">1/8/2025 12:13:48 PM</stringProp>
+		<stringProp name="LessonModifiedBy">s00003033</stringProp>
+		<stringProp name="LessonModifiedDate">1/8/2025 12:13:11 PM</stringProp>
+		<stringProp name="ModifiedBy">s00003033</stringProp>
+		<stringProp name="ModifiedDate">1/8/2025 12:13:11 PM</stringProp>
+		<stringProp name="PackagedBy">s00003033</stringProp>
+		<stringProp name="PackagedDate">1/8/2025 12:03:39 PM</stringProp>
+		<intProp name="StoryboardCount" value="23"/>
+		<ppcProp name="Tokens">
+			<ppc name="Tokens">
+				<stringProp name="DatabaseTitle">KC46TestContentdb</stringProp>
+				<stringProp name="LessonID">306CC813-62CD-409A-8E35-20F8DA7B93F2</stringProp>
+				<stringProp name="LessonIdentifier">T20425</stringProp>
+				<stringProp name="LessonIdentifierPath">Shutdown Procedure\T20425</stringProp>
+				<stringProp name="LessonTitle">Shutdown Procedure</stringProp>
+				<stringProp name="LessonTitlePath">TPIQ-C05NP18\Shutdown Procedure</stringProp>
+				<stringProp name="ParentIdentifier">Shutdown Procedure</stringProp>
+				<stringProp name="ParentIdentifierPath">Shutdown Procedure</stringProp>
+				<stringProp name="ParentTitle">TPIQ-C05NP18</stringProp>
+				<stringProp name="ParentTitlePath">TPIQ-C05NP18</stringProp>
+				<stringProp name="TopIdentifier">Shutdown Procedure</stringProp>
+				<stringProp name="TopIdentifierPath">Shutdown Procedure</stringProp>
+				<stringProp name="TopTitle">TPIQ-C05NP18</stringProp>
+				<stringProp name="TopTitlePath">TPIQ-C05NP18</stringProp>
+			</ppc>
+		</ppcProp>
+	</ppc>
+	<maps default="primary">
+		<map name="primary">
+			<item sbid="59962613-876F-4860-943F-A4FA745656FF">
+				<item sbid="429A8F7B-FE9D-4EAA-A1CB-A6A34D8E92B7"/>
+			</item>
+			<item sbid="8958DC8B-DDB4-41F9-8598-A0C58BCA553C"/>
+			<item sbid="5E5DFF5B-E49F-4808-9F93-9422116F9EB5">
+				<item sbid="864D61A6-E5D4-4832-B506-A1C50E1B8A1B"/>
+			</item>
+			<item sbid="D5773A26-BC81-4643-8D98-FC7F7881DFFB">
+				<item sbid="827B1F23-7912-4FB3-B958-6AD3E7853157"/>
+				<item sbid="05096D23-DAE0-4978-A593-27087C242FF0"/>
+				<item sbid="B980020A-75A3-4E99-9E15-44B40FCC6FF2"/>
+			</item>
+			<item sbid="60ABDAA0-A6B3-4278-8C26-E99354280A8F">
+				<item sbid="E4E39C8A-3AD8-45FF-A466-D91CE14C3515"/>
+			</item>
+			<item sbid="78641553-E4F9-4040-94BC-A22256002FF1">
+				<item sbid="EB65E079-F22D-4309-A96A-58F20DE39215"/>
+				<item sbid="79CF867E-D223-49B1-9363-B6EAE2CEA98D"/>
+				<item sbid="0D397A89-5BBB-4692-BBF1-8CD519575F53"/>
+				<item sbid="4D2994A2-8180-42A1-AC53-5304DC97A903"/>
+				<item sbid="91A56AB0-289F-435A-96D5-D3F38E4089C7"/>
+				<item sbid="6A38A6AF-AA67-43DE-8ECA-44863FDBA8FA"/>
+			</item>
+			<item sbid="FC8F035D-31B0-4925-9217-1444F5ED0E42">
+				<item sbid="52436880-AEB3-4965-AC11-CEC6921B9969"/>
+			</item>
+			<item sbid="046AD383-003F-4310-BBB2-E7FA4897B9E0"/>
+			<item sbid="7D1AAFCD-DD1A-43C2-8B3B-598DBA006970"/>
+			<item sbid="5E52AB70-FF83-4BBC-9DD2-1E5A1634A9A1"/>
+		</map>
+	</maps>
+	<storyboards>
+		<storyboard sbid="59962613-876F-4860-943F-A4FA745656FF" title="Lesson Introduction" identifier="SB52100" type="command sequencer" shortid="0">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<locationProp name="collageSource" from="429A8F7B-FE9D-4EAA-A1CB-A6A34D8E92B7"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="guide_1" type="Command">
+							<stringProp name="text">The purpose of this lesson is to explain the Shutdown Procedure.</stringProp>
+						</ce>
+						<ce name="guide_2" type="Command">
+							<stringProp name="text">Explain the Shutdown Procedure.</stringProp>
+						</ce>
+						<ce name="guide_3" type="Command">
+							<stringProp name="text">See Daily Training Schedule in the Introduction section of this guide.</stringProp>
+						</ce>
+						<ce name="guide_4" type="Command">
+							<stringProp name="text">1C-46(K)A-1, Flight Crew Operations Manual (FCOM)</stringProp>
+						</ce>
+						<ce name="guide_4" type="Command">
+							<stringProp name="text">1C-46(K)A-1CL-1, Quick Reference Handbook (QRH)</stringProp>
+						</ce>
+						<ce name="guide_5" type="Command">
+							<stringProp name="text">Learning Center CBT Workstation</stringProp>
+						</ce>
+						<ce name="guide_5" type="Command">
+							<stringProp name="text">Shutdown Procedure Instructor Guide or Student Guide</stringProp>
+						</ce>
+						<ce name="guide_5" type="Command">
+							<stringProp name="text">Writing Material</stringProp>
+						</ce>
+						<ce name="guide_6" type="Command">
+							<stringProp name="subitem1">Chapter NP – Shutdown Procedure (Pilots)</stringProp>
+							<stringProp name="subitem2">Chapter SP – Supplementary Procedures</stringProp>
+							<stringProp name="text">Review the 1C-46(K)A-1, Flight Crew Operations Manual (FCOM).</stringProp>
+						</ce>
+						<ce name="guide_6" type="Command">
+							<stringProp name="subitem1">Chapter NC, Section 1 – SHUTDOWN Checklist</stringProp>
+							<stringProp name="text">Review the 1C-46(K)A-1CL-1, Quick Reference Handbook (QRH).</stringProp>
+						</ce>
+						<ce name="guide_7" type="Command">
+							<stringProp name="text">None</stringProp>
+						</ce>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 12/13/2024 10:43:59 AM</stringProp>
+				<stringProp name="layout">Left/Right</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+				<stringProp name="visualType">Collage</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="paragraph" type="Command">
+					<stringProp name="text">The purpose of this lesson is to explain the Shutdown Procedure.</stringProp>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="429A8F7B-FE9D-4EAA-A1CB-A6A34D8E92B7" title="Lesson Introduction graphics" identifier="SB52101" type="canvas" shortid="1">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 12/13/2024 10:44:04 AM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="element 1" type="canvasElement">
+					<boolProp name="AutosizeGraphic" value="true"/>
+					<rectProp name="Dimensions" left="0" top="0" width="360" height="444"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/elec/ohp-elec001.png"/>
+				</ce>
+				<ce name="element 0" type="canvasElement">
+					<boolProp name="AutosizeGraphic" value="true"/>
+					<rectProp name="Dimensions" left="0" top="0" width="360" height="444"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/elec/ohp-elec001l10on.png"/>
+				</ce>
+				<ce name="element 2" type="canvasElement">
+					<boolProp name="AutosizeGraphic" value="true"/>
+					<rectProp name="Dimensions" left="0" top="0" width="360" height="444"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/elec/ohp-elec001l09on.png"/>
+				</ce>
+				<ce name="element 3" type="canvasElement">
+					<boolProp name="AutosizeGraphic" value="true"/>
+					<rectProp name="Dimensions" left="53" top="408" width="520" height="387"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="CenterAisleStand/controlstand/cas-controlstand001.png"/>
+				</ce>
+				<ce name="element 4" type="canvasElement">
+					<rectProp name="Dimensions" left="427" top="70" width="437" height="535"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/hyd/ohp-hyd002.png"/>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="8958DC8B-DDB4-41F9-8598-A0C58BCA553C" title="Lesson Objective(s)" identifier="SB52102" type="command" shortid="2">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<cecProp name="Commands"/>
+				<stringProp name="CommandType">objectives</stringProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00002113 on 2/12/2019 9:27:31 AM</stringProp>
+				<stringProp name="leadInStatement">The learning objective of this lesson is as follows:</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+				<stringProp name="objective1">Explain the Shutdown Procedure.</stringProp>
+			</ppc>
+			<cec name="children"/>
+		</storyboard>
+		<storyboard sbid="827B1F23-7912-4FB3-B958-6AD3E7853157" title="Parking brake - Set C or F/O graphics" identifier="SB52076" type="canvas" shortid="3">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 12/24/2024 1:04:32 PM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children"/>
+		</storyboard>
+		<storyboard sbid="05096D23-DAE0-4978-A593-27087C242FF0" title="Electrical power - Set F/O graphics" identifier="SB52077" type="canvas" shortid="4">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003062 on 6/3/2021 2:31:40 PM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="element 0" type="canvasElement">
+					<rectProp name="Dimensions" left="0" top="190" width="489" height="603"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/elec/ohp-elec001.png"/>
+				</ce>
+				<ce name="element 2" type="canvasElement">
+					<rectProp name="Dimensions" left="0" top="190" width="489" height="603"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/elec/ohp-elec001l09on.png"/>
+				</ce>
+				<ce name="element 3" type="canvasElement">
+					<rectProp name="Dimensions" left="0" top="190" width="489" height="603"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/elec/ohp-elec001l10on.png"/>
+				</ce>
+				<ce name="element 1" type="canvasElement">
+					<colorProp name="CustomColor" value="#00FFFF"/>
+					<intProp name="CustomWidth" value="4"/>
+					<rectProp name="Dimensions" left="151" top="340" width="172" height="139"/>
+					<stringProp name="DisplayType">shape</stringProp>
+					<stringProp name="ShapeType">rectangle</stringProp>
+					<boolProp name="UseCustomColor" value="true"/>
+					<boolProp name="UseCustomWidth" value="true"/>
+				</ce>
+				<ce name="element 4" type="canvasElement">
+					<boolProp name="AutosizeGraphic" value="true"/>
+					<rectProp name="Dimensions" left="200" top="0" width="474" height="185"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/apu/ohp-apu001.png"/>
+				</ce>
+				<ce name="element 5" type="canvasElement">
+					<boolProp name="AutosizeGraphic" value="true"/>
+					<rectProp name="Dimensions" left="200" top="0" width="474" height="185"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/apu/ohp-apu001k01-on.png"/>
+				</ce>
+				<ce name="element 6" type="canvasElement">
+					<boolProp name="AutosizeGraphic" value="true"/>
+					<rectProp name="Dimensions" left="200" top="0" width="474" height="185"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/apu/ohp-apu001l01on.png"/>
+				</ce>
+				<ce name="element 7" type="canvasElement">
+					<rectProp name="Dimensions" left="483" top="339" width="417" height="390"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="FIP/eicas/fip-eicas007-145.png"/>
+				</ce>
+				<ce name="element 8" type="canvasElement">
+					<colorProp name="CustomColor" value="#00FFFF"/>
+					<intProp name="CustomWidth" value="4"/>
+					<rectProp name="Dimensions" left="406" top="88" width="93" height="55"/>
+					<stringProp name="DisplayType">shape</stringProp>
+					<stringProp name="ShapeType">rectangle</stringProp>
+					<boolProp name="UseCustomColor" value="true"/>
+					<boolProp name="UseCustomWidth" value="true"/>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="B980020A-75A3-4E99-9E15-44B40FCC6FF2" title="ENGINE ANTI–ICE switches - Off F/O graphics" identifier="SB52078" type="canvas" shortid="5">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003062 on 6/3/2021 2:22:00 PM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="element 0" type="canvasElement">
+					<rectProp name="Dimensions" left="0" top="0" width="900" height="351"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/anti-ice/ohp-anti-ice001.png"/>
+				</ce>
+				<ce name="element 1" type="canvasElement">
+					<colorProp name="CustomColor" value="#00FFFF"/>
+					<intProp name="CustomWidth" value="4"/>
+					<rectProp name="Dimensions" left="461" top="81" width="351" height="260"/>
+					<stringProp name="DisplayType">shape</stringProp>
+					<stringProp name="ShapeType">rectangle</stringProp>
+					<boolProp name="UseCustomColor" value="true"/>
+					<boolProp name="UseCustomWidth" value="true"/>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="E4E39C8A-3AD8-45FF-A466-D91CE14C3515" title="SEAT BELTS selector - OFF F/O graphics" identifier="SB52081" type="canvas" shortid="6">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 12/19/2024 7:38:47 AM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children"/>
+		</storyboard>
+		<storyboard sbid="EB65E079-F22D-4309-A96A-58F20DE39215" title="FUEL PUMP and TANK switches - Off F/O graphics" identifier="SB52084" type="canvas" shortid="7">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 12/19/2024 1:06:27 PM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children"/>
+		</storyboard>
+		<storyboard sbid="79CF867E-D223-49B1-9363-B6EAE2CEA98D" title="LEFT and RIGHT ISOLATION switches - On F/O graphics" identifier="SB52086" type="canvas" shortid="8">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003062 on 6/3/2021 8:03:04 AM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="element 0" type="canvasElement">
+					<rectProp name="Dimensions" left="172" top="0" width="555" height="615"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="OverheadPanel/bleed/ohp-bleed001.png"/>
+				</ce>
+				<ce name="element 1" type="canvasElement">
+					<colorProp name="CustomColor" value="#00FFFF"/>
+					<intProp name="CustomWidth" value="4"/>
+					<rectProp name="Dimensions" left="213" top="117" width="473" height="144"/>
+					<stringProp name="DisplayType">shape</stringProp>
+					<stringProp name="ShapeType">rectangle</stringProp>
+					<boolProp name="UseCustomColor" value="true"/>
+					<boolProp name="UseCustomWidth" value="true"/>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="0D397A89-5BBB-4692-BBF1-8CD519575F53" title="Status messages - Check F/O graphics" identifier="SB52088" type="canvas" shortid="9">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003062 on 6/3/2021 8:06:29 AM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="element 0" type="canvasElement">
+					<rectProp name="Dimensions" left="0" top="0" width="900" height="760"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="Interior/loc/int-loc013.png"/>
+				</ce>
+				<ce name="element 2" type="canvasElement">
+					<rectProp name="Dimensions" left="0" top="0" width="900" height="760"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="Interior/loc/int-loc013zo028.png"/>
+				</ce>
+				<ce name="element 1" type="canvasElement">
+					<colorProp name="CustomColor" value="#00FFFF"/>
+					<intProp name="CustomWidth" value="4"/>
+					<rectProp name="Dimensions" left="285" top="253" width="227" height="124"/>
+					<stringProp name="DisplayType">shape</stringProp>
+					<stringProp name="ShapeType">rectangle</stringProp>
+					<boolProp name="UseCustomColor" value="true"/>
+					<boolProp name="UseCustomWidth" value="true"/>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="4D2994A2-8180-42A1-AC53-5304DC97A903" title="XPDR MODE - STBY F/O graphics" identifier="SB52089" type="canvas" shortid="10">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 12/19/2024 3:31:20 PM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="element 0" type="canvasElement">
+					<rectProp name="Dimensions" left="56" top="0" width="788" height="602"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="CenterAisleStand/mcdu/cas-mcdu001d00029.png"/>
+				</ce>
+				<ce name="element 1" type="canvasElement">
+					<colorProp name="CustomColor" value="#00FFFF"/>
+					<intProp name="CustomWidth" value="4"/>
+					<rectProp name="Dimensions" left="58" top="423" width="340" height="64"/>
+					<stringProp name="DisplayType">shape</stringProp>
+					<stringProp name="ShapeType">rectangle</stringProp>
+					<boolProp name="UseCustomColor" value="true"/>
+					<boolProp name="UseCustomWidth" value="true"/>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="91A56AB0-289F-435A-96D5-D3F38E4089C7" title=" RWR POWER - OFF graphics" identifier="SB68819" type="canvas" shortid="11">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 12/20/2024 9:30:01 AM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="element 0" type="canvasElement">
+					<rectProp name="Dimensions" left="56" top="0" width="788" height="602"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="CenterAisleStand/mcdu/cas-mcdu001d00291.png"/>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="6A38A6AF-AA67-43DE-8ECA-44863FDBA8FA" title="Shutdown Checklist graphics" identifier="SB05767" type="canvas" shortid="12">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 12/19/2024 3:30:31 PM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="element 0" type="canvasElement">
+					<rectProp name="Dimensions" left="137" top="0" width="626" height="263"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="Publications/qrh/pub-qrh-nc1-3_shutdown_Rev16.png"/>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="FC8F035D-31B0-4925-9217-1444F5ED0E42" title="Supplementary Procedures" identifier="SB52093" type="command sequencer" shortid="13">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<locationProp name="collageSource" from="52436880-AEB3-4965-AC11-CEC6921B9969"/>
+				<cecProp name="Commands"/>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 12/20/2024 8:16:56 AM</stringProp>
+				<stringProp name="layout">Left/Right</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+				<stringProp name="visualType">Collage</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="paragraph" type="Command">
+					<stringProp name="text">Supplementary procedures are accomplished as required rather than routinely performed on each flight.  Procedures accomplished in flight, or those that are an alternate means of accomplishing normal procedures, are usually accomplished by memory.  Infrequently used procedures, not normally accomplished are usually accomplished by reference.</stringProp>
+				</ce>
+				<ce name="paragraph" type="Command">
+					<stringProp name="text">The following is an example of supplementary procedures related to the Shutdown Procedure that would be referenced instead of accomplished by memory:</stringProp>
+				</ce>
+				<ce name="paragraph" type="Command">
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="text">Operation With Less Than Nominal External Power Source – Shutdown Procedure</stringProp>
+				</ce>
+				<ce name="paragraph" type="Command">
+					<stringProp name="text">Various supplementary procedures will be covered in more depth in later lessons and device trainers.</stringProp>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="52436880-AEB3-4965-AC11-CEC6921B9969" title="Supplementary Procedures graphic" identifier="SB52094" type="canvas" shortid="14">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003210 on 3/20/2017 10:20:50 AM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children"/>
+		</storyboard>
+		<storyboard sbid="046AD383-003F-4310-BBB2-E7FA4897B9E0" title="Comprehension Check" identifier="SB85006" type="command" shortid="15">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<cecProp name="Commands"/>
+				<stringProp name="CommandType">multiple-choice text fixed positions</stringProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="correctResponse">Response 3</stringProp>
+				<stringProp name="LastModified">by v00004097 on 4/20/2022 2:49:22 PM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+				<stringProp name="question">When setting the hydraulic panel during the Shutdown Procedure, which pump selector is set to OFF first?</stringProp>
+				<locationProp name="remediationRange" from="60ABDAA0-A6B3-4278-8C26-E99354280A8F"/>
+				<stringProp name="response1">L ELEC DEMAND pump selector</stringProp>
+				<stringProp name="response2">C ELEC 1 PRIMARY pump selector</stringProp>
+				<stringProp name="response3">Center AIR DEMAND pump selector</stringProp>
+				<stringProp name="response4">R ELECTRIC DEMAND pump selector</stringProp>
+			</ppc>
+			<cec name="children"/>
+		</storyboard>
+		<storyboard sbid="7D1AAFCD-DD1A-43C2-8B3B-598DBA006970" title="Comprehension Check" identifier="SB85007" type="command" shortid="16">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<cecProp name="Commands"/>
+				<stringProp name="CommandType">multiple-choice text fixed positions</stringProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="correctResponse">Response 3</stringProp>
+				<stringProp name="LastModified">by s00802785 on 12/3/2024 12:37:57 PM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+				<stringProp name="question">During the Shutdown Procedure, power off _______________ to prevent overheat.</stringProp>
+				<locationProp name="remediationRange" from="78641553-E4F9-4040-94BC-A22256002FF1"/>
+				<stringProp name="response1">Window heat</stringProp>
+				<stringProp name="response2">Position lights</stringProp>
+				<stringProp name="response3">Radar Warning Receiver (RWR)</stringProp>
+				<stringProp name="response4">Multifunctional Information Distribution System (MIDS)
+</stringProp>
+			</ppc>
+			<cec name="children"/>
+		</storyboard>
+		<storyboard sbid="5E52AB70-FF83-4BBC-9DD2-1E5A1634A9A1" title="Lesson Summary" identifier="SB52095" type="command sequencer" shortid="17">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<locationProp name="collageSource" from="429A8F7B-FE9D-4EAA-A1CB-A6A34D8E92B7"/>
+				<cecProp name="Commands"/>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 2/14/2024 12:18:40 PM</stringProp>
+				<stringProp name="layout">Left/Right</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+				<stringProp name="visualType">Collage</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="paragraph" type="Command">
+					<stringProp name="text">The purpose of this lesson was to explain the Shutdown Procedure.</stringProp>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="5E5DFF5B-E49F-4808-9F93-9422116F9EB5" title="Shutdown Procedure (Pilots)" identifier="SB02073" type="command sequencer" shortid="18">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<locationProp name="collageSource" from="864D61A6-E5D4-4832-B506-A1C50E1B8A1B"/>
+				<cecProp name="Commands"/>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 12/13/2024 11:22:00 AM</stringProp>
+				<stringProp name="layout">Left/Right</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+				<stringProp name="visualType">Collage</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="paragraph" type="Command">
+					<stringProp name="text">Open the QRH on you Electronic Flight Bag (EFB) to follow along with the Secure  Procedure. Follow the instructions provided to complete the Shutdown Procedure:</stringProp>
+				</ce>
+				<ce name="paragraph" type="Command">
+					<stringProp name="text">Crew Position References are as follows:</stringProp>
+				</ce>
+				<ce name="paragraph" type="Command">
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="text">Captain (C)</stringProp>
+				</ce>
+				<ce name="paragraph" type="Command">
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="text">Air Refueling Operator (ARO)</stringProp>
+				</ce>
+				<ce name="paragraph" type="Command">
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="text">First Officer (F/O)</stringProp>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="864D61A6-E5D4-4832-B506-A1C50E1B8A1B" title="Copy of Lesson Introduction graphics" identifier="SB02074" type="canvas" shortid="19">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<assetProp name="Background" filename="Placeholders/Placeholder_Blank.png"/>
+				<cecProp name="Commands">
+					<cec name="Commands">
+						<ce name="collage" type="Command"/>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 12/13/2024 11:21:13 AM</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="element 0" type="canvasElement">
+					<rectProp name="Dimensions" left="201" top="0" width="498" height="755"/>
+					<stringProp name="DisplayType">graphic</stringProp>
+					<assetProp name="Graphic" filename="Publications/fcom/pub-fcom_np-21-59_shutdow_proced_pilot.png"/>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="60ABDAA0-A6B3-4278-8C26-E99354280A8F" title="Shutdown Procedure (Pilots) – 1" identifier="SB52080" type="command sequencer" shortid="20">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<locationProp name="collageSource" from="E4E39C8A-3AD8-45FF-A466-D91CE14C3515"/>
+				<cecProp name="Commands">
+					<cec name="children">
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\lib\scripts\three.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\mobile\cas-controlstand001.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\mobile\cas-controlstand003.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\mobile\cas-controlstand003_b.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\mobile\cas-controlstand003_d.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\mobile\Image 4.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\story_content\67qwPWGZG0R.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\story_content\67qwPWGZG0R_half.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\story_content\int-360-fltdeck-001.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fcs-cutoff-001\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\lib\scripts\three.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\mobile\Image 5.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\mobile\ohp-passenger001.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\mobile\ohp-passenger001k01-auto.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\story_content\67qwPWGZG0R.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\story_content\67qwPWGZG0R_half.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\story_content\int-360-fltdeck-001.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-seatbelt-off-001\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\lib\scripts\three.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\mobile\Image 6.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\mobile\ohp-hyd002.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\mobile\ohp-hyd002k01-auto.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\mobile\ohp-hyd002k02-auto.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\mobile\ohp-hyd002k03-auto.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\mobile\ohp-hyd002l10on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\mobile\ohp-hyd002l11off.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\mobile\ohp-hyd002l13on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\mobile\ohp-hyd002l19off.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\mobile\ohp-hyd002l21off.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\mobile\ohp-hyd002l23off.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\story_content\67qwPWGZG0R.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\story_content\67qwPWGZG0R_half.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\story_content\int-360-fltdeck-001.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-hyd-set-001\story_content\user.js"/>
+						</ce>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 1/3/2025 4:15:14 PM</stringProp>
+				<stringProp name="layout">Left/Right</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+				<stringProp name="visualType">Collage</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="paragraph" type="Command">
+					<stringProp name="text">The steps in the Shutdown Procedure are as follows:&amp;nbsp;&amp;nbsp;(continued)</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">FUEL CONTROL Switches – CUTOFF (C)</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-fcs-cutoff-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="paragraph" type="Command">
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="text">If towing is needed:&lt;br&gt;&lt;br&gt;
+Establish communications with ground handling personnel.  (C)&lt;br&gt;&lt;br&gt;
+Verify that the nose gear steering is locked out.  (C)&lt;br&gt;&lt;br&gt;
+Set or release the parking brake as directed by ground handling personnel.  (C or F/O)</stringProp>
+				</ce>
+				<ce name="wcn" type="Command">
+					<stringProp name="wcnText">Do not apply rotational force when moving the FUEL CONTROL switch.</stringProp>
+					<stringProp name="wcnType">Caution</stringProp>
+				</ce>
+				<ce name="wcn" type="Command">
+					<stringProp name="wcnText">If the nose gear steering is not locked out, any change to hydraulic power with the tow bar connected may cause unwanted tow bar movement.</stringProp>
+					<stringProp name="wcnType">Warning</stringProp>
+				</ce>
+				<ce name="wcn" type="Command">
+					<stringProp name="wcnText">Do not hold or turn the nose wheel tiller during pushback or towing.  This can damage the nose gear or the tow bar.</stringProp>
+					<stringProp name="wcnType">Caution</stringProp>
+				</ce>
+				<ce name="wcn" type="Command">
+					<stringProp name="wcnText">Do not use airplane brakes to stop the airplane during pushback or towing.  This can damage the nose gear or the tow bar.</stringProp>
+					<stringProp name="wcnType">Caution</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">SEAT BELTS Selector – OFF (F/O)</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-seatbelt-off-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">HYDRAULIC Panel – Set (F/O)</stringProp>
+					<stringProp name="CItext">Center AIR DEMAND pump selector – OFF
+&lt;br&gt;&lt;br&gt;
+L ELEC DEMAND pump selector – OFF
+&lt;br&gt;&lt;br&gt;
+C ELEC 1 and C ELEC 2 PRIMARY pump switches – OFF
+&lt;br&gt;&lt;br&gt;
+R ELEC DEMAND pump selector – OFF</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-hyd-set-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="wcn" type="Command">
+					<stringProp name="wcnText">Depressurize the right system last to prevent fluid transfer between systems.</stringProp>
+					<stringProp name="wcnType">Note</stringProp>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="D5773A26-BC81-4643-8D98-FC7F7881DFFB" title="Shutdown Procedure (Pilots)" identifier="SB52075" type="command sequencer" shortid="21">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<locationProp name="collageSource" from="827B1F23-7912-4FB3-B958-6AD3E7853157"/>
+				<cecProp name="Commands">
+					<cec name="children">
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\lib\scripts\three.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\mobile\5cCKDPfOUnq.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\mobile\5osK9w362Nl.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\mobile\6BUkmopYYOE.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\mobile\6dRtzjiltLA.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\mobile\6NsoIeOBi9y.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\story_content\67qwPWGZG0R.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\story_content\67qwPWGZG0R_full.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\story_content\67qwPWGZG0R_half.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-ele-set-001\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\mobile\cas-controlstand001.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\mobile\fip-eicas007-108.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-set-001\story_content\user.js"/>
+						</ce>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 1/3/2025 4:04:46 PM</stringProp>
+				<stringProp name="layout">Left/Right</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+				<stringProp name="visualType">Collage</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="paragraph" type="Command">
+					<stringProp name="text">Start the Shutdown Procedure after taxi is complete.  The steps in the Shutdown Procedure are as follows:</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">Parking Brake – Set (C or F/O)</stringProp>
+					<stringProp name="CItext">Verify that the PARKING BRAKE SET message is shown.</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-PB-set-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">Electrical Power – Set (F/O)</stringProp>
+					<stringProp name="CItext">If APU power is needed:
+&lt;br&gt;&lt;br&gt;
+•  Verify that the APU RUN light is illuminated.
+&lt;br&gt;&lt;br&gt;
+If external power is needed:
+&lt;br&gt;&lt;br&gt;
+•  Verify that the PRIMARY EXTERNAL POWER AVAIL light is illuminated.
+&lt;br&gt;&lt;br&gt;
+•  PRIMARY EXTERNAL POWER switch – Push
+&lt;br&gt;
+&amp;nbsp;&amp;nbsp;Verify that the ON light is illuminated.
+&lt;br&gt;&lt;br&gt;
+If the SECONDARY EXTERNAL POWER AVAIL light is illuminated:
+&lt;br&gt;&lt;br&gt;
+•  SECONDARY EXTERNAL POWER switch – Push
+&lt;br&gt;  
+&amp;nbsp;&amp;nbsp;Verify that the ON light is illuminated.</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-ele-set-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">ENGINE ANTI-ICE Switches – Off (F/O)</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-antiice-off-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+			</cec>
+		</storyboard>
+		<storyboard sbid="78641553-E4F9-4040-94BC-A22256002FF1" title="Shutdown Procedure (Pilots) – 2" identifier="SB52083" type="command sequencer" shortid="22">
+			<ppc name="properties">
+				<stringProp name="BackButtonEnabled">always;</stringProp>
+				<locationProp name="collageSource" from="EB65E079-F22D-4309-A96A-58F20DE39215"/>
+				<cecProp name="Commands">
+					<cec name="children">
+						<ce name="swap graphic" type="Command">
+							<locationProp name="collageSource" from="6A38A6AF-AA67-43DE-8ECA-44863FDBA8FA"/>
+							<stringProp name="findText">%SWAP%</stringProp>
+							<stringProp name="replaceText">SHUTDOWN checklist</stringProp>
+							<stringProp name="visualType">Collage</stringProp>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\mobile\5b5VAUOJGGW.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\mobile\5kwIPZ0oo0L.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\mobile\5wXlqjapkWq.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\mobile\63sjVVd959Y.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-anticoll-off-001\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\lib\scripts\three.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\mobile\gla-mcp001.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\mobile\gla-mcp001t01on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\mobile\gla-mcp001t03on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\mobile\Image 6.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\story_content\67qwPWGZG0R.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\story_content\67qwPWGZG0R_half.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\story_content\int-360-fltdeck-001.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FDS-off-001\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\lib\scripts\three.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\mobile\cas-mcdu001d00313.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\mobile\cas-mcdu001d00376.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\story_content\67qwPWGZG0R.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\story_content\67qwPWGZG0R_half.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\story_content\int-360-fltdeck-001.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-XPDR-stby-001\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\lib\scripts\three.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\mobile\5oh3MC4V6RB.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\mobile\5Z3Kv9GfWLc.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\mobile\6KEShq6sR7a.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\mobile\6qmCRUbX8ZG.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\story_content\67qwPWGZG0R.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\story_content\67qwPWGZG0R_full.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\story_content\67qwPWGZG0R_half.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-FD-unlk-001\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\mobile\ohp-fuel001.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\mobile\ohp-fuel001l01on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\mobile\ohp-fuel001l05on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\mobile\ohp-fuel001l06on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\mobile\ohp-fuel001l07on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\mobile\ohp-fuel001l08on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\mobile\ohp-fuel001l11on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\mobile\ohp-fuel001l12on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-fuelpump-off-001\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\mobile\ohp-bleed001.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\mobile\ohp-bleed001lrislnoff.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-LRI-on-001\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\mobile\cas-mcdu001d00291.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\mobile\cas-mcdu001d00291b.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-RWR-off\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\lib\scripts\three.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\mobile\Image 1.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\mobile\int-loc013.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\mobile\int-loc013zo028.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\story_content\67qwPWGZG0R.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\story_content\67qwPWGZG0R_half.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\story_content\int-360-fltdeck-001.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-statusmessage-001\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\lib\scripts\three.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\mobile\cas-controlstand009.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\mobile\fip-eicas007-145.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\mobile\fip-eicas007-145b.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\mobile\Image 6.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\story_content\67qwPWGZG0R.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\story_content\67qwPWGZG0R_half.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\story_content\int-360-fltdeck-001.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-PB-rel-001\story_content\user.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\analytics-frame.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\meta.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\story.html"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\data\css\output.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\data\js\5tiZ7kDnGYD.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\data\js\data.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\data\js\frame.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\data\js\paths.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\lib\scripts\bootstrapper.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\lib\scripts\frame.desktop.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\lib\scripts\frame.mobile.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\lib\scripts\slides.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\lib\scripts\three.min.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\lib\stylesheets\desktop.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\lib\stylesheets\mobile.min.css"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-bold.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-light.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\html5\lib\stylesheets\mobile-fonts\open-sans-regular.woff"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\mobile\Image 6.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\mobile\ohp-apu001k01-on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\mobile\ohp-apu001l01on.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\mobile\ohp-apu001_a.png"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\story_content\67qwPWGZG0R.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\story_content\67qwPWGZG0R_half.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\story_content\frame.xml"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\story_content\int-360-fltdeck-001.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\story_content\thumbnail.jpg"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\story_content\triggers.js"/>
+						</ce>
+						<ce name="additionalAsset" type="Command">
+							<assetProp name="asset" filename="ShutdownProcedure\shutdnproc-APU-set-001\story_content\user.js"/>
+						</ce>
+					</cec>
+				</cecProp>
+				<stringProp name="CompleteWhen">always;</stringProp>
+				<stringProp name="LastModified">by s00003033 on 1/8/2025 12:13:11 PM</stringProp>
+				<stringProp name="layout">Left/Right</stringProp>
+				<stringProp name="NextButtonEnabled">whenComplete;</stringProp>
+				<stringProp name="visualType">Collage</stringProp>
+			</ppc>
+			<cec name="children">
+				<ce name="paragraph" type="Command">
+					<boolProp name="isBullet" value="false"/>
+					<stringProp name="text">The steps in the Shutdown Procedure are as follows:&amp;nbsp;&amp;nbsp;(continued)</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">Fuel Pump and Tank Switches – Off (F/O)</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-fuelpump-off-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">Anti-Collision Light Selector – OFF (F/O)</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-anticoll-off-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">Left and Right Isolation Switches – On (F/O)</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-LRI-on-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">Flight Director Switches – OFF (C, F/O)</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-FDS-off-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">Status Messages – Check (F/O)</stringProp>
+					<stringProp name="CItext">Record shown status messages in maintenance log.</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-statusmessage-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">After wheel chocks are in place:</stringProp>
+					<stringProp name="CItext">Parking Brake – Release (C or F/O)</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-PB-rel-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">XPDR MODE – STBY (F/O)</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-XPDR-stby-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">RWR POWER (RWR page of the MCDU) – OFF (F/O)</stringProp>
+					<stringProp name="CItext">Power off RWR to prevent overheat, since RWR cooling fans located in the wingtips are inhibited while the Ground Refueling Panel is open.</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-RWR-off/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">APU Selector – As needed (F/O)</stringProp>
+					<stringProp name="CItext">Verify that the APU selector is set as needed.</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-APU-set-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="complexInteraction" type="Command">
+					<stringProp name="CIlinkText">Flight Deck Door – Unlock (F/O)</stringProp>
+					<stringProp name="CItext">Verify that the flight deck door UNLKD light is illuminated.</stringProp>
+					<assetProp name="htmlFile" filename="ShutdownProcedure/shutdnproc-FD-unlk-001/story.html"/>
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="visualType">HTML</stringProp>
+				</ce>
+				<ce name="paragraph" type="Command">
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="text">Call “SHUTDOWN CHECKLIST.” – (C)</stringProp>
+				</ce>
+				<ce name="paragraph" type="Command">
+					<boolProp name="isBullet" value="true"/>
+					<stringProp name="text">Do the %SWAP%. – (F/O, ARO)</stringProp>
+				</ce>
+			</cec>
+		</storyboard>
+	</storyboards>
+</lesson>

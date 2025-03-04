@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interview_questions>
+    <question>
+        What is the difference between `ref` and `out` in C#?
+    </question>
+    <answer>
+        The `ref` keyword requires that a variable be initialized before passing, while `out` does not. Both allow modifying values inside methods.
+    </answer>
+
+    <question>
+        What are value types and reference types in C#?
+    </question>
+    <answer>
+        Value types store data directly in memory (e.g., `int`, `float`), whereas reference types store a reference to the actual data (`class`, `object`).
+    </answer>
+
+    <question>
+        What is the purpose of `async` and `await` in C#?
+    </question>
+    <answer>
+        `async` is used to define asynchronous methods, and `await` pauses execution until the awaited task completes without blocking the main thread.
+    </answer>
+
+    <question>
+        What is the difference between `abstract` and `interface` in C#?
+    </question>
+    <answer>
+        `abstract` classes can have both implementations and abstract methods, whereas `interface` only defines method signatures without implementations.
+    </answer>
+
+    <question>
+        What is dependency injection in C#?
+    </question>
+    <answer>
+        Dependency injection (DI) is a design pattern used to achieve Inversion of Control (IoC) by injecting dependencies into a class instead of creating them inside the class.
+    </answer>
+</interview_questions>
